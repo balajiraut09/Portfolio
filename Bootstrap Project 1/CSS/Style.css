@@ -1,0 +1,460 @@
+:root {
+    --textFont: "Rubik", sans-serif;
+    --themeColor: rgb(180, 156, 115);
+}
+
+#navbar a {
+    font-family: var(--textFont);
+}
+
+#navbar .navbar-brand {
+    font-weight: bold;
+}
+
+#hero {
+    background-image: url('Images/Background_img/hero_bg.jpg')
+}
+
+#hero h1 {
+    font-size: 35px;
+}
+
+#hero span {
+    color: var(--themeColor);
+    font-weight: bold;
+}
+
+#hero #shopnow {
+    background-color: var(--themeColor);
+    border-radius: 20px;
+}
+
+#hero .btn {
+    background-color: var(--themeColor);
+    font-size: 15px;
+    color: white;
+    font-family: var(--textFont);
+    border-radius: 20px;
+}
+
+#hero .btn:hover {
+    background-color: white;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+#OurPracticeAreasMain {
+    background-color: rgb(55, 55, 63);
+}
+
+#OurPracticeAreas span {
+    color: var(--themeColor);
+}
+
+#OurPracticeAreas .btn {
+    background-color: var(--themeColor);
+    font-size: 15px;
+    color: white;
+    font-family: var(--textFont);
+    border-radius: 20px;
+}
+
+#OurPracticeAreas .btn:hover {
+    background-color: white;
+    color: var(--themeColor);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+#OurPracticeAreas h2 {
+    font-size: 30px;
+    font-family: var(--textFont);
+}
+
+#OurPracticeAreas h4 {
+    display: inline;
+    font-family: var(--textFont);
+    font-weight: 300;
+    color: var(--themeColor);
+}
+
+#OurPracticeAreas i {
+    font-size: 25px;
+}
+
+#OurPracticeAreas p {
+    font-family: var(--textFont);
+    font-weight: 200;
+}
+
+#OurPracticeAreas2 h1 {
+    font-family: var(--textFont);
+    font-size: 30px;
+}
+
+#OurPracticeAreas2 span {
+    color: var(--themeColor);
+}
+
+#OurPracticeAreas2 h2 {
+    font-size: 80px;
+    font-weight: 400;
+
+}
+
+#OurPracticeAreas2 h3 {
+    font-family: var(--textFont);
+    font-size: 16px;
+}
+
+#HappyClients {
+    background-color: rgb(45, 45, 52);
+    padding: 50px 0;
+}
+
+#HappyClients h2 {
+    font-size: 36px;
+    font-family: var(--textFont);
+    color: white;
+    font-weight: 500;
+}
+
+#HappyClients span {
+    color: var(--themeColor);
+}
+
+#HappyClients p {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+#HappyClients .carousel-item {
+    text-align: left;
+}
+
+#HappyClients .d-flex.align-items-center {
+    margin-top: 15px;
+}
+
+#HappyClients img.rounded-circle {
+    border: 2px solid var(--themeColor);
+}
+
+#HappyClients h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+#HappyClients small {
+    font-size: 14px;
+    color: gray;
+}
+
+#MoreExpertise {
+    background-color: rgb(55, 55, 63);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#MoreExpertise {
+    overflow-x: hidden;
+    padding: 0 15px;
+}
+
+.MoreExpertisediv {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+#MoreExpertise h2 {
+    font-size: 36px;
+    color: white;
+}
+
+#MoreExpertise h2 span {
+    color: var(--themeColor);
+}
+
+.MoreExpertisediv {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.MoreExpertisediv h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.MoreExpertisediv p {
+    color: #666;
+    font-size: 14px;
+}
+
+#foot_img {
+    background-color: rgb(55, 55, 63);
+}
+
+#foot_img p {
+    font-size: 25px;
+    font-family: var(--textFont);
+    font-weight: 400;
+}
+
+#foot_img .btn {
+    background-color: var(--themeColor);
+    color: white;
+    font-family: var(--textFont);
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#footer {
+    background-color: rgb(55, 55, 63);
+    padding: 20px 0;
+}
+
+#footer h5 {
+    margin-bottom: 15px;
+    color: white;
+    font-family: var(--textFont);
+    font-weight: 300;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#footer ul li {
+    margin-bottom: 10px;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: var(--themeColor);
+    transition: color 0.3s;
+}
+
+#footer .d-flex i {
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s, transform 0.5s;
+    background-color: var(--themeColor);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#footer .d-flex i:hover {
+    transform: rotateY(180deg);
+}
+
+#footer p {
+    color: #fff;
+    font-family: var(--textFont);
+    font-weight: 200;
+}
+
+#foot {
+    font-family: var(--textFont);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+#foot span {
+    color: var(--themeColor);
+}
+
+@media only screen and (min-width: 768px) {
+    #hero h1 {
+        font-size: 60px;
+    }
+
+    #hero p {
+        font-size: 15px;
+    }
+
+    #hero .btn {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    #hero h1 {
+        font-size: 80px;
+    }
+
+    #hero p {
+        font-size: 20px;
+    }
+
+    #hero .btn {
+        font-size: 20px;
+    }
+
+    #OurPracticeAreas h2 {
+        font-size: 55px;
+        font-family: var(--textFont);
+    }
+
+    #OurPracticeAreas p {
+        font-size: 20px;
+    }
+
+    #OurPracticeAreas .btn {
+        font-size: 20px;
+        border-radius: 25px;
+        font-family: var(--textFont);
+    }
+
+    #HappyClients h2 {
+        font-size: 55px;
+    }
+
+    #OurPracticeAreas2 h1 {
+        font-size: 50px;
+    }
+
+    #OurPracticeAreasMain .OPAM:hover .bg-secondary {
+        background-color: var(--themeColor);
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+    }
+
+    #OurPracticeAreasMain .OPAM:hover h4 {
+        font-size: 25px;
+        color: var(--themeColor);
+        transition: color 0.3s ease-in-out;
+    }
+
+    #OurPracticeAreasMain .OPAM:hover p {
+        color: #6c757d;
+        transition: color 0.3s ease-in-out;
+    }
+
+    #OurPracticeAreasMain .OPAM:hover i {
+        transform: rotate(20deg);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    #MoreExpertise h2 {
+        font-size: 55px;
+        font-family: var(--textFont);
+    }
+
+    #MoreExpertise .MoreExpertisediv:hover {
+        background-color: var(--themeColor);
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        transition: all 0.4s ease-in-out;
+    }
+
+    #MoreExpertise .MoreExpertisediv:hover i {
+        color: white;
+        transform: rotate(360deg) scale(1.2);
+        transition: transform 0.4s ease-in-out, color 0.4s ease-in-out;
+    }
+
+    #MoreExpertise .MoreExpertisediv:hover h3 {
+        color: white;
+        transition: color 0.3s ease-in-out;
+    }
+
+    #MoreExpertise .MoreExpertisediv:hover p {
+        color: white;
+        transition: color 0.3s ease-in-out;
+    }
+
+    #MoreExpertise .MoreExpertisediv i {
+        color: var(--themeColor);
+        transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    #foot_img p {
+        font-size: 50px;
+        font-family: var(--textFont);
+        font-weight: 300;
+    }
+
+    #foot_img .btn {
+        background-color: var(--themeColor);
+        color: white;
+        font-family: var(--textFont);
+        font-size: 20px;
+        border-radius: 20px;
+    }
+
+    #foot_img .btn:hover {
+        background-color: white;
+        color: var(--themeColor);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+    }
+
+    #foot {
+        font-family: var(--textFont);
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    #foot span {
+        color: var(--themeColor);
+    }
+
+    #footer ul li a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+    }
+
+    #footer ul li a:hover {
+        color: var(--themeColor);
+        text-decoration: underline;
+    }
+
+    #footer .fa-brands {
+        color: #fff;
+        font-size: 1.5rem;
+        transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    #footer .fa-brands:hover {
+        color: white;
+        transform: scale(1.2);
+    }
+
+    #foot p span {
+        color: #fff;
+        font-weight: bold;
+        transition: color 0.3s ease-in-out;
+    }
+
+    #foot p span:hover {
+        color: var(--themeColor);
+    }
+
+    #footer p:hover {
+        color: var(--themeColor);
+        transition: color 0.3s ease-in-out;
+        text-decoration: underline;
+    }
+
+    #footer ul li {
+        margin-bottom: 8px;
+    }
+
+}

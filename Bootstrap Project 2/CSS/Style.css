@@ -1,0 +1,333 @@
+:root {
+    --maintext: "Sen", sans-serif;
+    --middletext: "Roboto", sans-serif;
+    --lowertext: "Josefin Sans", sans-serif;
+    --color: rgb(45, 48, 146);
+}
+
+#navbar a {
+    font-family: var(--lowertext);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #218838;
+    box-shadow: 0 0 10px rgba(33, 136, 56, 0.5);
+}
+
+.search-btn {
+    border-radius: 30px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.search-btn:hover {
+    background-color: #165e26;
+    border-color: #0d3816;
+}
+
+#hero span {
+    font-family: var(--middletext);
+    font-size: 16px;
+    color: rgb(45, 48, 146);
+    font-weight: 500;
+
+}
+
+#hero h1 {
+    font-family: var(--maintext);
+    font-weight: bold;
+    font-size: 27px;
+}
+
+#hero .btn {
+    background-color: var(--color);
+    font-size: 16px;
+    font-family: var(--lowertext);
+}
+
+#LetsBrowsAllCatagoriabove {
+    font-family: var(--lowertext);
+    font-size: 16px;
+    color: var(--color);
+}
+
+#LetsBrowsAllCatagori h1 {
+    font-size: 24px;
+    font-family: var(--maintext);
+    font-weight: bold;
+
+}
+
+#LetsBrowsAllCatagori h3 {
+    font-size: 24px;
+    font-family: var(--lowertext);
+    font-weight: bold;
+}
+
+#LetsBrowsAllCatagori p {
+    font-family: var(--lowertext);
+    font-size: 16px;
+}
+
+#LetsBrowsAllCatagori .btn {
+    background-color: var(--color);
+    color: white;
+    border-radius: 0px;
+    font-family: var(--middletext);
+}
+
+#LetsBrowsAllCatagori .Ldiv1,
+#LetsBrowsAllCatagori .Ldiv2,
+#LetsBrowsAllCatagori .Ldiv3,
+#LetsBrowsAllCatagori .Ldiv4,
+#LetsBrowsAllCatagori .Ldiv5,
+#LetsBrowsAllCatagori .Ldiv6 {
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#LetsBrowsAllCatagori .Ldiv1:hover,
+#LetsBrowsAllCatagori .Ldiv2:hover,
+#LetsBrowsAllCatagori .Ldiv3:hover,
+#LetsBrowsAllCatagori .Ldiv4:hover,
+#LetsBrowsAllCatagori .Ldiv5:hover,
+#LetsBrowsAllCatagori .Ldiv6:hover {
+    background-color: rgb(187,222,254);
+    color: black;
+}
+
+#Topics p {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color);
+    font-family: var(--lowertext);
+}
+
+#Topics #p2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(243, 211, 110);
+    font-family: var(--lowertext);
+}
+
+#Topics #p3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(32, 168, 148);
+    font-family: var(--lowertext);
+}
+
+#Topics {
+    height: 110vh;
+}
+
+#ourpopularcourseabove {
+    font-family: var(--lowertext);
+    font-size: 16px;
+    color: var(--color);
+}
+
+#OurPopularCourseOfThisWeek .p1 {
+    font-family: var(--middletext);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#OurPopularCourseOfThisWeek h1 {
+    font-size: 24px;
+    font-family: var(--maintext);
+    font-weight: bold;
+}
+
+#OurPopularCourseOfThisWeek .btn {
+    background-color: var(--color);
+    color: white;
+    border-radius: 0px;
+    font-family: var(--middletext);
+}
+
+#OurBestTeacher {
+    height: 300vh;
+}
+
+#OurBestTeacher .btn {
+    background-color: white;
+    color: black;
+    font-family: var(--middletext);
+    border-radius: 0px;
+}
+
+#OurBestTeacher h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--maintext);
+    color: white;
+}
+
+#OurBestTeacher h2 {
+    font-size: 24px;
+    font-family: var(--middletext);
+}
+
+#OurBestTeacher .p1 {
+    color: rgb(59, 160, 255);
+    font-family: var(--lowertext);
+}
+
+#KnowMore .icon-img {
+    height: 40px;
+    width: 40px;
+
+}
+
+#KnowMore .hp1 {
+    font-size: 16px;
+    font-family: var(--lowertext);
+    color: rgb(49, 56, 248);
+}
+
+#KnowMore h2 {
+    font-size: 24px;
+    font-family: var(--maintext);
+    font-weight: 500;
+}
+
+#KnowMore .p1 {
+    font-family: var(--middletext);
+}
+
+#KnowMore .s1 {
+    font-size: 16px;
+    font-family: var(--middletext);
+}
+
+#KnowMore .btn {
+    background-color: var(--color);
+    border-radius: 0;
+    color: white;
+    font-family: var(--middletext);
+}
+
+#footer {
+    background-color: rgb(11, 11, 29);
+}
+
+#footer h2 {
+    color: white;
+    font-family: var(--maintext);
+    font-size: 26px;
+}
+
+#footer .btn {
+    background-color: var(--color);
+    color: white;
+    font-family: var(--middletext);
+    border-radius: 0;
+}
+
+#footer img {
+    height: 50px;
+    width: 50px;
+}
+
+#footer .footer_about {
+    color: white;
+}
+
+.footer_about h3 {
+    font-size: 18px;
+    font-family: var(--maintext);
+}
+
+.footer_about ul {
+    padding: 0;
+}
+
+.footer_about li {
+    font-size: 14px;
+    font-family: var(--lowertext);
+    font-weight: 300;
+    color: #868c98;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+#foot {
+    font-family: var(--textFont);
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    box-shadow: 0px 0px 0px 1px var(--color);
+}
+
+@media only screen and (min-width: 768px) {
+    #hero h1 {
+        font-size: 50px;
+    }
+
+    #LetsBrowsAllCatagori h1 {
+        font-size: 49px;
+    }
+
+    #OurPopularCourseOfThisWeek h1 {
+        font-size: 49px;
+    }
+
+    #Topics {
+        height: 50vh;
+    }
+
+    #OurBestTeacher {
+        height: 180vh;
+    }
+
+    #OurBestTeacher h1 {
+        font-size: 49px;
+    }
+
+    #OurBestTeacher h2 {
+        font-size: 18px;
+    }
+
+    #KnowMore h2 {
+        font-size: 49px;
+        font-weight: 600;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    #hero h1 {
+        font-size: 60px;
+    }
+
+    #LetsBrowsAllCatagori h1 {
+        font-size: 50px;
+    }
+
+    #OurPopularCourseOfThisWeek .p1 {
+        font-size: 25px;
+    }
+
+    #OurPopularCourseOfThisWeek h1 {
+        font-size: 49px;
+    }
+
+    #OurBestTeacher {
+        height: 100vh;
+    }
+
+    #OurBestTeacher h1 {
+        font-size: 50px;
+    }
+
+    #OurBestTeacher h2 {
+        font-size: 18px;
+    }
+
+    #foot {
+        font-size: 18px;
+    }
+
+}

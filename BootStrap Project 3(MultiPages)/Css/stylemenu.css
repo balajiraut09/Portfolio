@@ -1,0 +1,312 @@
+:root {
+    --Heading: "Poppins", sans-serif;
+    --italic: "Courgette";
+    --middletext: "Montserrat", sans-serif;
+}
+
+#hero_section {
+    height: 60vh;
+}
+
+#navbar a {
+    color: white;
+    font-family: var(--middletext);
+}
+
+#navbar .btn {
+    color: white;
+    background-color: white;
+}
+
+#hero span {
+    color: white;
+    font-family: var(--italic);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#hero h2 {
+    color: white;
+    font-family: var(--Heading);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+#hero .btn {
+    background-color: white;
+    color: red;
+    font-size: 12px;
+    font-family: var(--middletext);
+}
+
+#Menu {
+    background-color: rgb(239, 239, 239);
+}
+
+#Menu h3 {
+    font-size: 24px;
+    font-family: var(--Heading);
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#Menu h4 {
+    font-size: 18px;
+    font-family: var(--Heading);
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#Menu .price {
+    font-size: 22px;
+    font-family: var(--middletext);
+    font-weight: 400;
+}
+
+#Menu p {
+    font-size: 13px;
+    font-family: var(--middletext);
+    font-weight: 400;
+    color: #666666;
+}
+
+#lunch {
+    height: 60vh;
+}
+
+#lunch .lunchdiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#lunch h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#dinner .dinnerdiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#dinner h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#lunchmenu h3 {
+    font-size: 18px;
+    font-family: var(--Heading);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#lunchmenu p {
+    font-size: 13px;
+    font-family: var(--middletext);
+    font-weight: 300;
+    color: #666666;
+}
+
+#lunchmenu span {
+    font-size: 22px;
+    font-family: var(--Heading);
+    font-family: 500;
+}
+
+#dinner {
+    height: 60vh;
+}
+
+#dinnermenu h3 {
+    font-size: 18px;
+    font-family: var(--Heading);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#dinnermenu p {
+    font-size: 13px;
+    font-family: var(--middletext);
+    font-weight: 300;
+    color: #666666;
+}
+
+#dinnermenu span {
+    font-size: 22px;
+    font-family: var(--Heading);
+    font-family: 500;
+}
+
+#reservation {
+    background-color: rgb(239, 239, 239);
+}
+
+#reservation span {
+    font-size: 30px;
+    font-family: var(--italic);
+    color: #d61c22;
+}
+
+#reservation h4 {
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-family: var(--Heading);
+    font-weight: bolder;
+}
+
+#reservation .btn {
+    font-size: 12px;
+    font-family: var(--middletext);
+    background-color: black;
+    color: white;
+}
+
+#reservation h4 {
+    font-size: 22px;
+    font-family: var(--Heading);
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+#reservation p {
+    font-size: 15px;
+    font-family: var(--middletext);
+    color: #666666;
+}
+
+#reservation #span1 {
+    color: #d61c22;
+    font-size: 15px;
+    font-family: var(--middletext);
+}
+
+#section7 {
+    background-color: #212529;
+    color: white;
+}
+
+#section7 h4 {
+    font-size: 18px;
+    font-family: var(--Heading);
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+#section7 span {
+    color: #666665;
+    font-family: var(--middletext);
+    font-size: 13px;
+}
+
+#section7 p {
+    color: #666665;
+    font-family: var(--middletext);
+    font-size: 13px;
+}
+
+#section7 .span1 {
+    color: #d61c22;
+}
+
+#section7 .footinfo {
+    background-color: black;
+}
+
+#section7 #foot p {
+    color: white;
+    font-family: var(--middletext);
+    letter-spacing: 2px;
+}
+
+#section7 #foot span {
+    color: rgb(248, 4, 4);
+}
+
+#Reservation {
+    height: 60vh;
+}
+
+#Reservation .reservationdiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#Reservation h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (min-width: 768px) {
+    #hero_section {
+        height: 50vh;
+    }
+
+    #hero h2 {
+        font-size: 50px;
+    }
+
+    #Menu h3 {
+        font-size: 30px;
+    }
+
+    #lunch {
+        height: 50vh;
+    }
+
+    #dinner {
+        height: 50vh;
+    }
+
+    #Reservation {
+        height: 50vh;
+    }
+    #Reservation h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #hero_section {
+        height: 60vh;
+    }
+
+    #Menu h3 {
+        font-size: 35px;
+    }
+
+    #lunch {
+        height: 40vh;
+    }
+
+    #dinner {
+        height: 40vh;
+    }
+
+    #Reservation {
+        height: 40vh;
+    }
+}

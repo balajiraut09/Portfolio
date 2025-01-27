@@ -1,0 +1,552 @@
+:root {
+    --font1: "Cormorant Garamond", serif;
+    --font2: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+    /* Optional: Smooth scrolling effect for the entire page */
+}
+
+#navbar {
+    font-family: var(--font2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    /* Adjust to match your design */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow effect */
+    transition: all 0.3s ease-in-out;
+    /* Smooth transition effect */
+}
+
+#navbar.scrolled {
+    background-color: #f8f9fa; /* Change background color on scroll */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow on scroll */
+    transform: scale(0.98); /* Slightly shrink navbar */
+}
+
+#navbar a {
+    font-size: 14px;
+}
+
+#navbar .nav-item {
+    padding: 5px 15px;
+    margin: 0 10px;
+}
+
+#navbar .fa-brands,
+#navbar .fa-solid {
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+#navbar .fa-brands:hover,
+#navbar .fa-solid:hover {
+    transform: scale(1.2);
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: black;
+    border-radius: 50%;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-item.dropdown:hover .dropdown-toggle {
+    color: black;
+}
+
+
+.nav-item.dropdown:hover .dropdown-toggle::after {
+    display: none;
+}
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.navbar-nav .dropdown-toggle::after {
+    display: none;
+}
+
+#nav-icons {
+    display: none;
+}
+
+#hero {
+    background-image: url(../Images/Background_IMG/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+}
+
+#hero-div {
+    padding-top: 150px;
+}
+
+#hero h2 {
+    font-size: 30px;
+    font-family: var(--font1);
+    text-transform: uppercase;
+}
+
+#hero h5 {
+    font-size: 14px;
+    font-family: var(--font2);
+}
+
+#hero p {
+    font-size: 17px;
+    font-family: var(--font2);
+}
+
+#OURSERVICES {
+    padding-top: 100px;
+}
+
+#OURSERVICES h2 {
+    font-size: 36px;
+    font-family: var(--font1);
+}
+
+#OURSERVICES h4 {
+    font-size: 22px;
+    font-family: var(--font1);
+}
+
+#OURSERVICES p {
+    font-size: 16px;
+    font-family: var(--font2);
+    color: #666;
+}
+
+#OURSERVICES .SD-1 {
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#OURSERVICES .SD-1:hover {
+    background-color: rgb(243, 245, 246);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#OURWEDDINGFEATURES {
+    padding-top: 100px;
+}
+
+#OURWEDDINGFEATURES h2 {
+    font-size: 36px;
+    font-family: var(--font1);
+}
+
+#OURWEDDINGFEATURES .service-item {
+    position: relative;
+    padding: 10px 0;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: var(--font2);
+}
+
+#OURWEDDINGFEATURES .service-item::after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#OURWEDDINGFEATURES .service-item:hover::after {
+    opacity: 1;
+}
+
+#reviews {
+    background-image: url(../Images/Background_IMG/counter-bg\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+#reviews h2 {
+    font-family: var(--font1);
+    font-size: 48px;
+}
+
+#reviews p {
+    font-family: var(--font2);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.request {
+    margin-top: 20px;
+}
+
+.request__form {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.request__form .section-title {
+    background: #767b67;
+    padding: 30px 20px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.request__form .section-title span {
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: var(--font1);
+}
+
+.request__form .section-title h2 {
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: var(--font1);
+    font-size: 36px;
+}
+
+.request__form .section-title p {
+    color: #ffffff;
+    font-family: var(--font2);
+    font-size: 15px;
+}
+
+.request__form form {
+    padding: 20px 10px;
+}
+
+.request__form form input,
+.request__form form select,
+.request__form form textarea {
+    width: 100%;
+    font-size: 14px;
+    color: #666666;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 15px;
+}
+
+.request__form form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.request__form form button {
+    width: 100%;
+    background: #767b67;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#Blog {
+    padding-top: 100px;
+}
+
+#Blog h2 {
+    font-family: var(--font1);
+    font-size: 36px;
+}
+
+#Blog p {
+    font-family: var(--font2);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.request {
+    margin-top: -322px;
+}
+
+.card li {
+    font-size: 17px;
+    font-family: var(--font1);
+}
+
+.card a {
+    font-size: 26px;
+    font-family: var(--font1);
+    text-decoration: none;
+
+}
+
+#Blog .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Blog .card-img-top {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#Blog .card:hover .card-img-top {
+    transform: scale(1.05);
+    filter: brightness(0.9);
+}
+
+#Blog .card-body {
+    padding: 20px 20px 0px 0px;
+}
+
+#OWLcar {
+    padding: 50px 10px;
+    background-color: rgb(247, 248, 243);
+}
+
+#footer {
+    background-color: rgb(59, 62, 51);
+    padding: 50px 0px 0px 0px;
+    color: #ffffff;
+}
+
+#footer h4 {
+    font-family: var(--font1);
+    font-size: 24px;
+}
+
+#footer p {
+    font-family: var(--font2);
+    font-size: 15px;
+}
+
+#footer .form-control {
+    background-color: rgb(66, 69, 56);
+    color: #ffffff;
+    border-color: rgb(59, 62, 51);
+    opacity: 1;
+}
+
+#button-addon2 {
+    background-color: #ffffff;
+}
+
+.foot-icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(66, 69, 56);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.foot-icon i {
+    font-size: 20px;
+}
+
+.foot-icon:hover {
+    background-color: #444;
+    transform: scale(1.1);
+}
+
+#footer h5 {
+    font-family: var(--font1);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#footer li {
+    font-family: var(--font2);
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 5px;
+    color: #cccccc;
+}
+
+#footer p,
+#footer li {
+    font-family: var(--font2);
+    font-size: 14px;
+    color: #dddddd;
+}
+
+#footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 30px 0;
+}
+
+#footer img {
+    margin-top: 10px;
+    max-width: 200px;
+}
+
+#footer .input-group .form-control::placeholder {
+    color: #bbbbbb;
+    opacity: 1;
+}
+
+#footer .input-group .form-control:focus {
+    background-color: rgb(66, 69, 56);
+    color: #ffffff;
+    border-color: rgb(59, 62, 51);
+}
+
+#footer .input-group button {
+    border: none;
+    background-color: #ffffff;
+    color: rgb(59, 62, 51);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#footer .input-group button:hover {
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+#footer address,
+#footer p {
+    font-family: var(--font2);
+    font-size: 14px;
+    color: #dddddd;
+}
+
+#foot {
+    font-family: var(--font1);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+#foot span {
+    font-family: var(--font2);
+    color: white;
+}
+
+
+@media only screen and (min-width:768px) {
+    #hero h2 {
+        font-size: 48px;
+    }
+
+    #hero h5 {
+        font-size: 18px;
+    }
+
+    .request__form {
+        padding: 30px;
+    }
+
+    .request__form .section-title {
+        padding: 60px 40px;
+    }
+
+    .request__form form {
+        padding: 30px;
+    }
+
+    .request__form form input,
+    .request__form form select,
+    .request__form form textarea {
+        padding: 14px;
+    }
+
+    .request__form form button {
+        width: auto;
+        padding: 16px 30px;
+    }
+
+    .request {
+        margin-top: -306px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #navbar .nav-item {
+        padding: 5px 10px;
+        margin: 0px 10px;
+    }
+
+    .request__form .section-title {
+        padding: 60px 80px;
+    }
+
+    .request__form form {
+        padding: 40px 80px;
+    }
+
+    .request__form form input,
+    .request__form form select,
+    .request__form form textarea {
+        padding: 16px;
+    }
+
+    .request__form form button {
+        padding: 18px 40px;
+    }
+
+    .request {
+        margin-top: -326px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    #navbar .nav-item {
+        padding: 5px 15px;
+        margin: 0px 10px;
+    }
+
+    #nav-icons {
+        display: block;
+    }
+
+    #hero-div {
+        margin-bottom: 200px;
+    }
+
+    #OURWEDDINGFEATURES .service-item {
+        padding: 10px 20px;
+    }
+
+    .request {
+        margin-top: -305px;
+    }
+
+    .request__form .section-title h2 {
+        letter-spacing: 7px;
+    }
+}

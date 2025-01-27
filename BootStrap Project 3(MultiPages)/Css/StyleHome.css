@@ -1,0 +1,234 @@
+:root {
+    --Heading: "Poppins", sans-serif;
+    --italic: "Courgette";
+    --middletext: "Montserrat", sans-serif;
+}
+
+#hero_section {
+    height: 100vh;
+}
+
+#navbar a {
+    color: white;
+    font-family: var(--middletext);
+}
+
+#navbar .btn {
+    color: white;
+    background-color: white;
+}
+
+#hero span {
+    color: white;
+    font-family: var(--italic);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#hero h2 {
+    color: white;
+    font-family: var(--Heading);
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+#hero .btn{
+    background-color: white;
+    color: red;
+    font-size: 12px;
+    font-family: var(--middletext);
+}
+
+#section2 span{
+    color: red;
+    font-size: 30px;
+    font-family: var(--italic);
+
+}
+
+#section2 h3{
+    font-size: 50px;
+    font-family: var(--Heading);
+    font-weight: 600;
+}
+
+#section2 p{
+    font-size: 15px;
+    color: #666665;
+    font-family: var(--middletext);
+    font-weight: 300;
+}
+
+#section3{
+    height: 80vh;
+}
+
+#section3 span{
+    font-size: 30px;
+    color: #d61c22;
+    font-family: var(--italic);
+}
+
+#section3 h3{
+    font-size: 50px;
+    color: white;
+    font-family: var(--Heading);
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+#section4 h4{
+    font-size: 22px;
+    font-family: var(--Heading);
+    letter-spacing: 2px;
+}
+
+#section4 p{
+    font-size: 15px;
+    font-family: var(--middletext);
+    color: #666666;
+}
+
+#section4 .P1{
+    font-size: 12px;
+}
+
+#section5{
+    height: 320vh;
+}
+
+#section5 span{
+    color: #d61c22;
+    font-size: 30px;
+    font-family: var(--italic);
+}
+#section5 h3{
+    font-size: 50px;
+    font-family: var(--Heading);
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+
+
+
+#section6{
+    background-color: rgb(236,236,236);
+}
+
+#section6 span{
+    font-size: 22px;
+    font-family: var(--Heading);
+    letter-spacing: 5px;
+}
+
+#section6 .btn{
+    font-family: var(--middletext);
+    font-size: 12px;
+    background-color: black;
+    color: white;
+}
+
+#section7{
+    background-color: #212529;
+    color: white;
+}
+
+#section7 h4{
+    font-size: 18px;
+    font-family: var(--Heading);
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+#section7 span{
+    color: #666665;
+    font-family: var(--middletext);
+    font-size: 13px;
+}
+
+#section7 p{
+    color: #666665;
+    font-family: var(--middletext);
+    font-size: 13px;
+}
+
+#section7 .span1{
+    color: #d61c22;
+}
+
+#section7 .footinfo{
+    background-color:black;
+}
+#section7 #foot p{
+    color: white;
+    font-family: var(--middletext);
+    letter-spacing: 2px;
+}
+
+#section7 #foot span{
+    color: rgb(248, 4, 4);
+}
+
+#THEBLOG h4{
+    font-size: 22px;
+    font-family: var(--Heading);
+    letter-spacing: 2px;
+}
+
+#THEBLOG p{
+    font-size: 15px;
+    font-family: var(--middletext);
+    color: #666666;
+}
+
+#THEBLOG .P1{
+    font-size: 12px;
+}
+
+#THEBLOG span{
+    font-size: 30px;
+    color: #d61c22;
+    font-family: var(--italic);
+}
+
+#THEBLOG h3{
+    font-size: 50px;
+    color: black;
+    font-family: var(--Heading);
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    #hero span{
+        font-size: 60px;
+    }
+    #hero h2{
+        font-size: 70px;
+    }
+    #section3{
+        height: 60vh;
+    }
+    #section5 .img3{
+        height: 20vh;
+    } 
+    #section5{
+        height: 130vh;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    #hero h2{
+        font-size: 90px;
+    }
+    #section2 img{
+        height: 50vh;
+    }
+    #section3{
+        height: 50vh;
+    }
+    #section5{
+        height: 180vh;
+    }
+}

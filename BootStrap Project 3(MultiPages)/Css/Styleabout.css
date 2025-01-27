@@ -1,0 +1,278 @@
+:root {
+    --Heading: "Poppins", sans-serif;
+    --italic: "Courgette";
+    --middletext: "Montserrat", sans-serif;
+}
+
+#hero_section {
+    height: 80vh;
+}
+
+#navbar a {
+    color: white;
+    font-family: var(--middletext);
+}
+
+#navbar .btn {
+    color: white;
+    background-color: white;
+}
+
+#hero h2 {
+    color: white;
+    font-family: var(--Heading);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+#ourstory {
+    height: 100vh;
+}
+
+#ourstory span {
+    color: #d61c22;
+    font-size: 30px;
+    font-family: var(--italic);
+}
+
+#ourstory h3 {
+    font-size: 50px;
+    font-family: var(--Heading);
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+
+#ourstory p {
+    color: #666665;
+    font-family: var(--middletext);
+    font-size: 15px;
+}
+
+#section3 {
+    height: 80vh;
+}
+
+#section3 span {
+    font-size: 30px;
+    color: #d61c22;
+    font-family: var(--italic);
+}
+
+#section3 h3 {
+    font-size: 50px;
+    color: white;
+    font-family: var(--Heading);
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+#section3 .icon-container {
+    background-color: white;
+
+}
+
+#section4 {
+    background-color: rgb(238, 238, 238);
+}
+
+#section4 span {
+    font-size: 30px;
+    color: #d61c22;
+    font-family: var(--italic);
+}
+
+#section4 h3 {
+    font-size: 30px;
+    color: black;
+    font-family: var(--Heading);
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+#section4 p {
+    color: #666665;
+    font-family: var(--middletext);
+    font-size: 15px;
+}
+
+#section5 {
+    height: 100vh;
+}
+
+#section6 span {
+    font-size: 30px;
+    color: #d61c22;
+    font-family: var(--italic);
+}
+
+#section6 h3 {
+    font-size: 50px;
+    font-family: var(--Heading);
+    letter-spacing: 3px;
+    font-weight: 600;
+
+}
+
+#section6 h4 {
+    font-size: 18px;
+    font-family: var(--Heading);
+    letter-spacing: 3px;
+
+}
+
+#section6 .chef {
+    font-size: 12px;
+    font-family: var(--middletext);
+    color: #666665;
+
+}
+
+#section7 span {
+    font-size: 30px;
+    color: #d61c22;
+    font-family: var(--italic);
+}
+
+#section7 h3 {
+    font-size: 50px;
+    font-family: var(--Heading);
+    letter-spacing: 3px;
+    font-weight: 600;
+
+}
+
+#section7 #s1 {
+    color: black;
+    font-size: 12px;
+    font-family: var(--middletext);
+}
+
+.custom-carousel-control {
+    background-color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(4, 4, 4);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.star-rating {
+    font-size: 1.5rem;
+    color: gold;
+    margin-top: 10px;
+}
+
+#section8 {
+    background-color: rgb(239, 239, 239);
+}
+
+#section8 h3 {
+    font-size: 22px;
+    font-family: var(--Heading);
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+#section8 span {
+    font-size: 15px;
+    font-family: var(--middletext);
+    color: #666665;
+}
+
+#section9 {
+    background-color: rgb(239, 239, 239);
+}
+
+
+#section9 span{
+    font-size: 22px;
+    font-family: var(--Heading);
+    letter-spacing: 3px;
+
+}
+
+#section9 h3 {
+    font-size: 22px;
+    font-family: var(--Heading);
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+@media only screen and (min-width: 768px) {
+    #hero h2 {
+        font-size: 50px;
+    }
+
+    #ourstory {
+        height: 60vh;
+    }
+
+    #section3 {
+        height: 60vh;
+    }
+
+    #section5 {
+        height: 80vh;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #hero_section {
+        height: 60vh;
+    }
+
+    #ourstory {
+        height: 50vh;
+    }
+
+    #section3 {
+        height: 50vh;
+    }
+
+    #section4 h3 {
+        font-size: 50px;
+    }
+
+    #section4 span {
+        font-size: 35px;
+    }
+
+    #section4 img {
+        height: 50vh;
+    }
+
+    #section4 p {
+        font-size: 18px;
+    }
+
+    #section5 {
+        height: 50vh;
+    }
+
+    #section6 h3 {
+        font-size: 60px;
+    }
+
+    #section6 span {
+        font-size: 40px;
+    }
+
+    #section6 h4 {
+        font-size: 22px;
+    }
+
+    #section7 span {
+        font-size: 40px;
+    }
+
+    #section7 h4 {
+        font-size: 22px;
+    }
+
+}
